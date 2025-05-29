@@ -45,5 +45,19 @@ the dataset used in this project was sourced from [data.world](https://data.worl
 3. Attach to a cluster and run cells sequentially.
 4. View output tables and dashboards.
 
+## Libraries used
+This project leverages a combination of PySpark and visualization libraries to perform scalable data processing and analysis.
+
+* PySpark
+  - `SparkSession`: To initialize and manage the Spark application.
+  - `pyspark.sql.functions`: Used for column operations, aggregations, conditional logic, date transformations, and string formatting.
+  - `pyspark.sql.types`: For defining structured schemas like StructType, StringType, IntegerType when reading raw CSV files.
+  - `pyspark.sql.window`: Enables advanced analytics like ranking using row_number() and window partitions.
+
+* Visualization Libraries
+  - `matplotlib.pyplot`: Fow basic data visualization like bar plots or line charts.
+  - `seaborn`: For enhanced statistical graphics and styled visualizations.
+
+
 ## Output
 The final results are displayed using Databricks charts or can be exported to tools like Tableau or PowerBI. 
